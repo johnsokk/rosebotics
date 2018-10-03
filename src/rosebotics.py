@@ -27,7 +27,7 @@ class SnatcherRobt(object):
         self.right_wheel.start_spinning(right_wheel_duty_cycle_percent)
 
 
-    def stop(self, stop_action=StopAction.BREAK):
+    def stop(self, stop_action=StopAction.BREAK.value):
         self.left_wheel.stop_spinning(stop_action)
         self.right_wheel.stop_spinning(stop_action)
 
