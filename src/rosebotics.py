@@ -15,7 +15,7 @@ class StopAction(Enum):
 
 class SnatcherRobt(object):
     def __init__(self,
-                left_wheel_port=ev3.OUTPUT.B, right_wheel_port=ev3.OUTPUT.C):
+                 left_wheel_port=ev3.OUTPUT.B, right_wheel_port=ev3.OUTPUT.C):
         self.left_wheel = Wheel(left_wheel_port)
         self.right_wheel = Wheel(right_wheel_port)
 
