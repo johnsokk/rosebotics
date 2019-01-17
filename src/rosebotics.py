@@ -89,3 +89,5 @@ class Wheel(object):
 
     def reset_degrees_spun(self, position=0):
         self.motor.position = position
+    def forward_seconds
+
